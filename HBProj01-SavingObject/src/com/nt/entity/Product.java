@@ -17,7 +17,7 @@ public class Product implements Serializable{
 	}
 	public void setPid(Integer pid) {
 		this.pid = pid;
-	}
+	} 
 	public String getPname() {
 		return pname;
 	}
@@ -43,6 +43,6 @@ public class Product implements Serializable{
 		return "Product [pid=" + pid + ", pname=" + pname + ", price=" + price + ", qty=" + qty + "]";
 	}
 	
-		
+		System.out.println("*");
 
 }
